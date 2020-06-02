@@ -1,0 +1,29 @@
+.foto {
+  height: 500px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Light.ttf");
+}
+
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  font-family: "Roboto";
+  font-size: 30px;
+  background-color: #faf3dd;
+}
+
+.text {
+  text-align: justify;
+  padding-left: 20px;
+  width: 600px;
+}
+
+img {
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
