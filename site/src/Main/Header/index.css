@@ -1,28 +1,32 @@
-.foto {
-  height: 500px;
-}
-
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Light.ttf");
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+.Header-foto {
+  height: 500px;
+  display: inline-block;
 }
 
 .Header {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  padding: 50px 200px;
   font-family: "Roboto";
   font-size: 30px;
   background-color: #faf3dd;
+  /* vertical-align: top; */
 }
 
-.text {
+.Header-text {
   text-align: justify;
-  padding-left: 20px;
+  display: inline-block;
+  padding-left: 100px;
   width: 600px;
+  vertical-align: top;
 }
 
-img {
+.Header-foto img {
   height: 500px;
   border: 2px solid black;
   border-radius: 5px;

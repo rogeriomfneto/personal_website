@@ -4,10 +4,10 @@ import "./index.css";
 
 export default (props) => (
   <div className="Header">
-    <div className="foto">
+    <div className="Header-foto">
       <img src={Rogerio} alt="Rogério" />
     </div>
-    <div className="text">
+    <div className="Header-text">
       <p>
         I'm currently enjoying life as a{" "}
         <strong>third-year Computer Science student</strong> at the{" "}
