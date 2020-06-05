@@ -8,7 +8,7 @@ import "./index.css";
 export default (props) => {
   const university =
     "Institute of Mathematics and Statistics - University of São Paulo";
-  const degree = "Bachaelor in Computer Science";
+  const degree = "Bachelor in Computer Science";
   const duration = "2018-2021 (Expected)";
   return (
     <div className="Education part">
