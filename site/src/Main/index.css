@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "open-sans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.part {
+  padding: 10vh 12vw;
+}
+
+@media (max-width: 700px) {
+  .part {
+    padding: 5vh 2vh;
+  }
+}

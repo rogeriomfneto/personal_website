@@ -1,0 +1,16 @@
+.Subtitle {
+  font-family: "open-sans";
+  font-size: 30px;
+  color: #363838;
+  margin-bottom: 15px;
+  align-self: stretch;
+}
+
+.Subtitle::after {
+  background: #363838;
+  content: " ";
+  display: block;
+  height: 5px;
+  margin: 15px 0;
+  width: 60px;
+}

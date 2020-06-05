@@ -1,33 +1,38 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("../../fonts/Roboto-Regular.ttf");
-}
-
-.Header-foto {
-  height: 500px;
-  display: inline-block;
-}
-
 .Header {
-  /* display: flex; */
-  /* justify-content: space-evenly; */
-  padding: 50px 200px;
   font-family: "Roboto";
-  font-size: 30px;
-  background-color: #faf3dd;
-  /* vertical-align: top; */
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.39);
+  background-image: url("./usp.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 10px #000;
 }
 
-.Header-text {
-  text-align: justify;
-  display: inline-block;
-  padding-left: 100px;
-  width: 600px;
-  vertical-align: top;
+.Header-image {
+  width: 300px;
 }
 
-.Header-foto img {
-  height: 500px;
-  border: 2px solid black;
-  border-radius: 5px;
+.Header img {
+  border-radius: 50%;
+  border: solid 5px #363838;
+  width: 100%;
+}
+
+.Header h1 {
+  font-size: 50px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+@media (max-width: 700px) {
+  .Header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header h1 {
+    margin-left: 0;
+  }
 }

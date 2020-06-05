@@ -1,0 +1,32 @@
+.Media {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 30px;
+}
+
+.Media-logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.Media img {
+  width: 100%;
+}
+
+.Media a {
+  text-decoration: none;
+  color: #347cbf;
+}
+
+.Contacts-medias {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .Media {
+    margin: 10px 5px;
+  }
+}
