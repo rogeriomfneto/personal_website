@@ -1,5 +1,5 @@
 import React from "react";
-// import Rogerio from "./Rogerio.jpg";
+import { Link } from "react-router-dom";
 import Subtitle from "../Subtitle";
 import "./index.css";
 
@@ -20,6 +20,9 @@ export default (props) => (
       </p>
       <p>
         I also like to watch movies, series and play Tetris in my free time.
+      </p>
+      <p>
+        Click <Link to="/mac0499/">here</Link> to check out my undergraduate thesis.
       </p>
     </div>
   </div>

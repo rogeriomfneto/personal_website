@@ -1,0 +1,14 @@
+.Intro {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-family: "Roboto";
+  font-size: 30px;
+  background-color: #faf3dd;
+}
+
+.Intro-text {
+  text-align: justify;
+  max-width: 800px;
+  vertical-align: top;
+}
