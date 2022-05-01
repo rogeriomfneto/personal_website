@@ -34,7 +34,7 @@ export default (props) => (
         here
       </a>
       {" "}
-      to see the proposal
+      to see the proposal.
     </div>
   </div>
 );

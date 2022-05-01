@@ -8,6 +8,7 @@ function Routes() {
     <Switch>
       <Route exact path="/" component={Main}/>
       <Route path="/mac0499/" component={Tcc}/>
+      <Route path="/*" component={Main}/>
     </Switch>
   )
 }
