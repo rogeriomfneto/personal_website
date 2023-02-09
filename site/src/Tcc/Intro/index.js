@@ -1,6 +1,7 @@
 import React from "react";
 import Subtitle from "../../Main/Subtitle";
 import proposal from "../../assets/proposal.pdf"
+import monograph from "../../assets/monograph.pdf"
 import "./index.css";
 
 const text1 = "There are two main aspects in game design that are really important \
@@ -29,12 +30,23 @@ export default (props) => (
       <p>
         {text3}
       </p>
-      Click {" "}
-      <a href={proposal} target="_blank" rel="noreferrer">
-        here
-      </a>
-      {" "}
-      to see the proposal.
+      <p>
+        Click {" "}
+        <a href={proposal} target="_blank" rel="noreferrer">
+          here
+        </a>
+        {" "}
+        to see the proposal.
+      </p>
+      <p>
+        Click  {" "}
+        <a href={monograph} target="_blank" rel="noreferrer">
+          here
+        </a>
+        {" "}
+        to check out my monograph.
+      </p>
+      
     </div>
   </div>
 );
