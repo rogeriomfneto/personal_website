@@ -19,6 +19,7 @@ make it more accessible."
 
 export default (props) => (
   <div className="Intro part">
+    <Subtitle text="PROCEDUROIDVANIA: a procedurally generated metroidvania game" />
     <Subtitle text="INTRO" />
     <div className="Intro-text">
       <p>
@@ -45,6 +46,16 @@ export default (props) => (
         </a>
         {" "}
         to check out my monograph.
+      </p>
+      <Subtitle text="AUTHOR" />
+      <p>
+      Rogerio Marcos Fernandes Neto
+      </p>
+      <Subtitle text="SUPERVISOR" />
+      <p>
+        <a href={"https://www.ime.usp.br/~kazuo/"} target="_blank" rel="noreferrer">
+          Wilson Kazuo Mizutani
+        </a>  
       </p>
       
     </div>
